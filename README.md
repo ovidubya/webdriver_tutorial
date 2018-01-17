@@ -8,7 +8,7 @@ Go to [Node.js](https://nodejs.org/) and install either the LTS or current versi
 
 You should have an updated version of nodejs and npm. Type in your terminal
 
-![Check versions](./step1.gif)
+![Check versions](https://github.com/ovidubya/webdriver_tutorial/blob/master/Step1.gif)
 
 By default, Mac computers will contain versions of node and npm but they are usaully outdated and its good to have the updated version.
 
