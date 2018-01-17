@@ -17,7 +17,7 @@ By default, Mac computers will contain versions of node and npm but they are usa
 ## Create Project Directory
 
 
-![Check versions](./step2.gif)
+![Check versions](https://github.com/ovidubya/webdriver_tutorial/blob/master/Step2.gif)
 
 # Step 3
 
@@ -33,7 +33,7 @@ $ npm init
 ```
 This will bring a prompt on your terminal, you can choose to enter information, I just pressed enter for the default option.
 
-![Install package.json](./step3.gif)
+![Install package.json](https://github.com/ovidubya/webdriver_tutorial/blob/master/Step3.gif)
 
 
 # Step 4
@@ -52,13 +52,13 @@ $ npm install chromedriver --save
 The --save means that it will save it in your package.json. You can also type --save-dev. This means that it will install webdriverio as a dev dependency. Dev dependcies do not get included when pushing into production. But since this demo is mainly used for webdriverio, we will not install it as a dev depenedncy.
 
 Install webdriverio
-![Install webdriverio](./step4.gif)
+![Install webdriverio](https://github.com/ovidubya/webdriver_tutorial/blob/master/Step4.gif)
 
 Install chromedriver
-![Install chromedriver](./step4.1.gif)
+![Install chromedriver](https://github.com/ovidubya/webdriver_tutorial/blob/master/Step4.1.gif)
 
 After install, your project directory should look something like this:
-![folder dir](./step4pic.png)
+![folder dir](https://github.com/ovidubya/webdriver_tutorial/blob/master/step4pic.PNG)
 
 The node_modules folder is where all your modules live, as you keep installing more modules, your folder grows.
 
@@ -90,7 +90,7 @@ Once you save it your package.json, go back to your terminal and type
 ```sh
 $ npm install
 ```
-![Install chromedriver](./step5.gif)
+![Install chromedriver](https://github.com/ovidubya/webdriver_tutorial/blob/master/Step5.gif)
 
 This command will install any packages that are listed in the package.json file but not in the node_modules folder.
 
@@ -111,7 +111,7 @@ Type in your terminal and follow the same path. To select multiple options, use 
 ```sh
 $ ./node_modules/.bin/wdio
 ```
-![Install wdio conf](./step6.gif)
+![Install wdio conf](https://github.com/ovidubya/webdriver_tutorial/blob/master/Step6.gif)
 
 # Step 7
 
@@ -143,7 +143,7 @@ specs: [
 
 After these changes have been made, go to your terminal and create a test folder. You will want to name it the same as the spec property in the wdio.conf.js file. 
 
-![Install wdio conf](./step7.gif)
+![Install wdio conf](https://github.com/ovidubya/webdriver_tutorial/blob/master/Step7.gif)
 
 
 # Step 8
@@ -196,7 +196,7 @@ $ ./node_modules/.bin/wdio wdio.conf.js
 ```
 The first part `./node_modules/.bin/wdio` uses webdriver, the2nd part `wdio.conf.js` is the config file we want to run.
 
-![Install wdio conf](./step8.gif)
+![Install wdio conf](https://github.com/ovidubya/webdriver_tutorial/blob/master/Step8.gif)
 
 # Step 9
 
