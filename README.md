@@ -1,6 +1,4 @@
-# Step 1
-
-## Install NodeJS and npm
+# Getting started with Webdriver.io
 
 [Webdriver.io](http://webdriver.io/) requires  v4+ to run.
 
@@ -12,16 +10,12 @@ You should have an updated version of nodejs and npm. Type in your terminal
 
 By default, Mac computers will contain versions of node and npm but they are usaully outdated and its good to have the updated version.
 
-# Step 2
-
-## Create Project Directory
+# Setup project
 
 
 ![Check versions](https://github.com/ovidubya/webdriver_tutorial/blob/master/Step2.gif)
 
-# Step 3
-
-## Install package.json
+# Install package.json
 
 package.json is a file that will manage all your projects dependencies and dev dependencies
 
@@ -36,9 +30,7 @@ This will bring a prompt on your terminal, you can choose to enter information, 
 ![Install package.json](https://github.com/ovidubya/webdriver_tutorial/blob/master/Step3.gif)
 
 
-# Step 4
-
-## Install Webdriver.io and chromedriver
+# Install Webdriver.io and chromedriver
 
 Once you have package.json, your ready to install node modules. Type in your terminal
 
@@ -62,9 +54,7 @@ After install, your project directory should look something like this:
 
 The node_modules folder is where all your modules live, as you keep installing more modules, your folder grows.
 
-# Step 5 (optional)
-
-## Allow intellij support in your javascript files.
+# Allow intellij support in your javascript files.
 
 This step is optional.Go to your package.json folder.
 
@@ -94,9 +84,7 @@ $ npm install
 
 This command will install any packages that are listed in the package.json file but not in the node_modules folder.
 
-# Step 6
-
-## Configure test envirorment
+# Configure test envirorment
 
 For this demo, we will only test on our local machine. To test on devices on the clould you will need a subscription from either of these providers:
 
@@ -113,9 +101,7 @@ $ ./node_modules/.bin/wdio
 ```
 ![Install wdio conf](https://github.com/ovidubya/webdriver_tutorial/blob/master/Step6.gif)
 
-# Step 7
-
-## Edit the config file
+# Edit the config file
 
 In  your `wdio.conf.js` you will have to make a few edits.
 
@@ -146,9 +132,7 @@ After these changes have been made, go to your terminal and create a test folder
 ![Install wdio conf](https://github.com/ovidubya/webdriver_tutorial/blob/master/Step7.gif)
 
 
-# Step 8
-
-## Editing the test file
+# Editing the test file
 
 With your favorite editor, open the `simpleDemoTest.js` that you just created.
 
@@ -186,9 +170,7 @@ describe('this is a simple test', function() {
 });
 ```
 To learn more about the the webdriver api, visit this link: http://webdriver.io/api.html
-# Step 8
-
-## Running the test file
+# Running the test file
 
 To run the test file, type in your console
 ```sh
@@ -198,10 +180,4 @@ The first part `./node_modules/.bin/wdio` uses webdriver, the2nd part `wdio.conf
 
 ![Install wdio conf](https://github.com/ovidubya/webdriver_tutorial/blob/master/Step8.gif)
 
-# Step 9
 
-## todo
-
-# Step 10
-
-## todo
